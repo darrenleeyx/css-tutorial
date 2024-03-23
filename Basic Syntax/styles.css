@@ -1,0 +1,54 @@
+/* The basic structure of a selector
+selector {
+    property1: value1;
+    property2: value2;
+}
+*/
+
+/* HTML element selector */
+h1 {
+    color: purple;
+}
+
+
+/* Class selector */
+
+.class-name {
+    font-weight: bold;
+}
+
+.class2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Id selector (Unique) */
+#id1 {
+    color: red;
+}
+
+
+/* All selector
+* {
+}
+*/
+
+/* AND selector */
+p.class3 {
+    color: blue;
+}
+
+span.class3#id2 {
+    color: brown;
+}
+
+/* OR selector (,) */
+h2.class2, h3.class2 {
+    color: orange;
+}
+
+/* Children selector (All p in div)*/
+div p {
+    color: aquamarine;
+}
+
+

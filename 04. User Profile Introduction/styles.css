@@ -19,7 +19,7 @@
     text-decoration: line-through;
 }
 
-/* Common practice to remove underline from links */
+/* Common practice to remove underline from anchor tags */
 a {
     text-decoration: none;
 }

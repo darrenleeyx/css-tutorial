@@ -1,0 +1,18 @@
+div {
+    color: blue;
+    border: 1px solid black;
+}
+
+p {
+    /* color is inherited from the parent by default */
+    color: inherit;
+
+    /* 
+        disables inheritance of color from parent 
+        this will set all p elements to its own color
+    */
+    color: initial;
+
+    /* other styles such as borders are not inherited unless specified */
+    border: inherit;
+}

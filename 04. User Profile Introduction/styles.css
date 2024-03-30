@@ -1,0 +1,25 @@
+.header-text {
+    text-align: center;
+}
+
+.even-section {
+    background-color: green;
+    color: white;
+}
+
+.cyan {
+    color:cyan;
+}
+
+.section-title {
+    font-family: Arial;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+/* Common practice to remove underline from links */
+a {
+    text-decoration: none;
+}

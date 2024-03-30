@@ -1,0 +1,23 @@
+p {
+    /* RGB values ranges from 0-255 (Easier to read) */
+    /* background-color: rgb(100, 0, 255); */
+
+    /* Hexadecimal value 
+        (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10,...,FF) */
+    /* background-color: #AA00FF; */
+
+    /* Shorthand for AA00FF (seldom used)*/
+    /* background-color: #A0F; */
+
+    /* HSL = Hue, Saturation, Lightness 
+       Hue value ranges from 0-360
+       Saturation/Lightness 0-100%
+    */
+    background-color: hsl(120, 100%, 50%);
+
+        /* A = alpha (opacity) */
+    /* 
+        background-color: rgba(100, 0, 255, 1); 
+        background-color: rgba(300, 100%, 100%, 1);
+    */
+}

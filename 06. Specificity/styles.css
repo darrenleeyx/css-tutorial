@@ -1,0 +1,32 @@
+/* 
+Css are read top-down, any styles below will take precedence 
+Provided they have the same specificity.
+
+p {
+    color: red;
+}
+p {
+    color: blue;
+}
+*/
+
+/* Ids are the most specific, hence they will override anything */
+/* Followed by classes, then elements */
+/* Keyword (important), Ids, Classes, Elements */
+/* Try not to use the important keyword as it is hard to maintain */
+
+/* 0, 1, 0, 0 */
+#heading-id {
+    color: red;
+}
+/* 0, 0, 1, 0 */
+.header {
+    color: green;
+}
+/* 1, 0, 0, 1 */
+h2 {
+    color: blue !important;
+}
+
+/* Inline style will override everything unless there is an important keyword */
+/* Refrain from using inline styles as much as possible */

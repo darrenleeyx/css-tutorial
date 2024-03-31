@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 10px solid black;
+            margin: 20px;
+
+            /* div size + padding + border + margin will be kept within 100x100 */
+            /* The actual div size will be reduced by padding, border and margin to maintain total sizing */
+            box-sizing: border-box;
+        }
+
+        .div-1 {
+            background-color: hsl(100, 80%, 50%);
+        }
+
+        .div-2 {
+            background-color: hsl(200, 80%, 50%);
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-1">One</div>
+    <div class="div-2">Two</div>
+</body>
+</html>

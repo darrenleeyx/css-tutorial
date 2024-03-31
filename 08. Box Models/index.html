@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 10px solid black;
+            margin: 50px;
+        }
+
+        .div-1 {
+            background-color: hsl(100, 80%, 50%);
+        }
+
+        .div-2 {
+            background-color: hsl(200, 80%, 50%);
+            
+            /* 
+                Although top margin set to 20px,
+                the vertical gap remains at 50px due to div-1.
+                The margins do not add up to 70px in this case.        
+            */
+            margin: 20px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-1">One</div>
+    <div class="div-2">Two</div>
+</body>
+</html>

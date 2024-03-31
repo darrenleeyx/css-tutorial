@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent {
+            border: 1px solid black;
+            font-size: 30px;
+        }
+
+        .item {
+            background-color: red;
+            margin: 5px 0;
+        }
+
+        .rem {
+            /* 100% of root font size */
+            /* Commonly used */
+            font-size: 1rem;
+        }
+
+        .em {
+            /* 100% of the parent's font size */
+            font-size: 1em;
+            padding: 0.25em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="item rem">1 REM</div>
+    <div class="item em">1 EM</div>
+    <div class="parent">
+        <div class="item rem">1 REM</div>
+        <div class="item em">1 EM</div>
+    </div>
+</body>
+</html>

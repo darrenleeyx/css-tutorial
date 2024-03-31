@@ -1,0 +1,23 @@
+span:first-child {
+    color: red;
+}
+
+span:last-child {
+    color: blue;
+}
+
+span:first-of-type {
+    color: purple;
+}
+
+span:nth-child(2) {
+    color: green;
+}
+
+span:nth-child(even) {
+    color: sandybrown;
+}
+
+span:nth-child(2n + 1) {
+    color: darkcyan;
+}

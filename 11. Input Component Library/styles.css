@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.input {
+    border: 1px solid hsl(0, 0%, 50%);
+    border-radius: .3em;
+    padding: .5em;
+    margin: .25rem;    
+    outline: none;
+    font-size: inherit;
+}
+
+.input:focus {
+    border: 1px solid hsl(250, 100%, 50%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 30%);
+}
+
+.input.input-success {
+    border: 1px solid hsl(123, 100%, 30%);
+}
+
+.input.input-success:focus {
+    border: 1px solid hsl(120, 100%, 50%);
+    box-shadow: 0 0 3px 0 hsl(120, 100%, 30%);
+}
+
+.input.input-error {
+    border: 1px solid hsl(0, 100%, 50%);
+}
+
+.input.input-error:focus {
+    border: 1px solid hsl(0, 100%, 50%);
+    box-shadow: 0 0 3px 0 hsl(0, 100%, 30%);
+}
+
+.input.input-large {
+    font-size: 1.25rem;
+}
+
+.input.input-small {
+    font-size: .75rem;
+}
+
+.input:disabled {
+    background-color: hsl(0, 0%, 80%);
+}

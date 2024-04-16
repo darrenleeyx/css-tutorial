@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.link-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link {
+    margin: 0;
+    padding: 1rem;
+}
+
+.link:hover {
+    background-color: gray;
+}
+
+.link a {
+    color: inherit;
+    text-decoration: none;
+}

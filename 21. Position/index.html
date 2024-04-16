@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Default position: static (follow document flow)-->
+    <!-- position: relative
+            Used with top, left, right, bottom e.g. top:10px;
+            Push x pixels away from the original position
+            Does not affect other html elements as though nothing changed
+    -->
+    <!-- position: absolute 
+            Used with top, left, right, bottom e.g. top:10px;
+            Push x pixels away from body
+                IF position: relative is not set on any parent
+                ELSE it will be based on the closest parent with relative
+    -->
+    <!-- position: fixed
+            Used with top, left, right, bottom e.g. top:10px;
+            Push x pixels away from the body regardless of parent position
+            It will stay there even if the page is scrollable
+    -->
+    <!-- position: sticky
+            Used with top, left, right, bottom e.g. top:10px;
+            Sticks x pixels away from the parent container
+            Will remain on screen until the parent is not shown
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 200vh;
+        }
+
+        .parent {
+            font-size: 1.5rem;
+            padding: 1rem;
+            background-color: lightskyblue;
+        }
+
+        .child1 {
+            position: sticky;
+            top: 0;
+            padding: 1rem;
+            background-color: lightcoral;
+        }
+
+        .child2 {
+            padding: 1rem;
+            background-color: lightgreen;
+        }
+
+        .child3 {
+            padding: 1rem;
+            background-color: peru;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child1">One</div>
+        <div class="child2">Two</div>
+        <div class="child3">Three</div>
+    </div>
+</body>
+</html>

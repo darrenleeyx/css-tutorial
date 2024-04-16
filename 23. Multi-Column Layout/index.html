@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            column-count: 3; /* Max column count */
+            column-rule: 1px solid black;
+            column-gap: 20px;
+            column-width: 100px; /* Min column width */
+        }
+
+        .header {
+            column-span: all;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolores!
+        <hr>
+        <h2 class="header">Header</h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione velit natus vero tenetur facere quibusdam amet cupiditate unde aperiam labore.
+        <hr>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam perspiciatis corporis dolorem officia. Architecto.
+    </div>
+</body>
+</html>
